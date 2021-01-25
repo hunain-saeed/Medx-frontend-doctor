@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.text-m {
+  color: #596168;
+}
+body > #root > div {
+  height: 100%;
+  min-height: 100vh;
+}
+body {
+  background-color: white;
+}
+.form-control {
+  border-color: #f1f1f1;
+}
+.form-control:focus {
+  box-shadow: none;
+  border-color: #a7f9f3;
+}
+.custom-select {
+  border-color: #f1f1f1;
+}
+.custom-select:focus {
+  box-shadow: none;
+  border-color: #a7f9f3;
+}
+.bold {
+  font-weight: 600;
+}
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.loginContainer {
+  height: auto;
+  border-radius: 2%;
+  background-color: #f4f7fc;
+  /* border: 1px solid #cfcfcf; */
+  /* box-shadow: 2px 2px 8px #cfcfcf, -2px -2px 8px #cfcfcf; */
+}
+@media only screen and (min-width: 100px) {
+  .login {
+    margin-top: 45px;
+  }
+  .loginContainer {
+    width: 290px;
+    padding: 20px 30px;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .login {
+    margin-top: 70px;
+  }
+  .loginContainer {
+    width: 325px;
+    padding: 20px 40px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .loginContainer {
+    width: 450px;
+    padding: 20px 50px;
+  }
+}

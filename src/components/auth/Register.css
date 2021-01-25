@@ -1,0 +1,79 @@
+.registrer {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.text-m {
+  color: #596168;
+}
+.registrerContainer {
+  padding: 20px 50px;
+  border-radius: 2%;
+  height: auto;
+  background-color: #f4f7fc;
+}
+.form-control {
+  border-color: #f1f1f1;
+}
+.form-control:focus {
+  box-shadow: none;
+  border-color: #a7f9f3;
+}
+.bold {
+  font-weight: 600;
+}
+.mbottom {
+  margin-bottom: 0px;
+}
+.mbspe {
+  margin-bottom: 10px;
+}
+label {
+  margin-bottom: 1px;
+  margin-left: 2px;
+  color: #596168;
+}
+.form-group input::placeholder {
+  color: #a0adba;
+}
+/* a0adba adbcc9 */
+.mbottom input {
+  margin-bottom: 10px;
+}
+.mbottom small {
+  margin-bottom: 10px;
+}
+@media only screen and (min-width: 100px) {
+  .registrerContainer {
+    width: 290px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media only screen and (min-width: 500px) {
+  .registrerContainer {
+    width: 350px;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .registrerContainer {
+    width: 450px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .registrerContainer {
+    width: 650px;
+  }
+}
+
+.show {
+  align-items: center;
+}
+
+.icon {
+  margin-bottom: 10px;
+}

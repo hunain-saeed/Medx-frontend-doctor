@@ -1,0 +1,36 @@
+.logoutButton {
+  color: white;
+  text-decoration: none;
+}
+.logoutButton:hover {
+  color: white;
+  text-decoration: none;
+}
+.white {
+  color: white !important;
+}
+#button:hover {
+  background-color: #2e3338;
+}
+
+@media only screen and (min-width: 100px) {
+  img {
+    width: 96px;
+    height: 56px;
+  }
+}
+@media only screen and (min-width: 576px) {
+  img {
+    width: 108px;
+    height: 63px;
+  }
+  .navc{
+    margin: 0px 15px; 
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .navc{
+    margin: 0px 50px; 
+  }
+}
