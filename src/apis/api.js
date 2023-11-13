@@ -1,4 +1,7 @@
-const baseURL = "https://medx-oab.herokuapp.com/api";
+//const baseURL = "https://medx-oab.herokuapp.com/api";
+
+ const baseURL = "http://localhost:4000/api";
+
 
 export const Register = `${baseURL}/register/`;
 
